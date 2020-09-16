@@ -8,3 +8,5 @@ Than you can send IBIS-commands by tying in the commands or chose one by clickin
 As you can not type in each command, there are a few buttons, to send special commands like DS21 etc.
 These buttons uses the fields above, but may send additional records.
 
+If you have questions feel free to send me an email: helmut.seitz@bconn.de
+
