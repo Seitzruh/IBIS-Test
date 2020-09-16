@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="?android:attr/listDivider"
+        android:layout_height="2dp" />
+
+    <TextView
+        android:id="@+id/receive_text"
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:layout_weight="1"
+        android:freezesText="true"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:typeface="monospace" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/receive_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+        <EditText
+            android:id="@+id/send_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="text|textNoSuggestions"
+            android:singleLine="true"
+            android:text="l001"
+
+            />
+
+        <ImageButton
+            android:id="@+id/info_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_info_details" />
+
+        <ImageButton
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_send_white_24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adr:"
+        />
+    <EditText
+        android:id="@+id/addr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:maxLength="1"
+        android:minEms="1"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop:"
+            />
+        <EditText
+            android:id="@+id/stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:maxLength="2"
+            android:minEms="2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text1:"
+            />
+        <EditText
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLength="16"
+            android:minEms="16"
+            android:text="erster Halt"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text2:"
+        />
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLength="16"
+        android:minEms="16"
+        android:text="Text2"
+        />
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/datzeibtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dat/Zeit" />#
+        <Button
+            android:id="@+id/ds09btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS9 " />
+    <Button
+        android:id="@+id/ds10btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DS10 " />
+    <Button
+            android:id="@+id/ds04cbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS04c" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ds21btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS21" />
+
+        <Button
+            android:id="@+id/ds21abtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS21a" />
+
+        <Button
+            android:id="@+id/ds03abtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS03a" />
+        <Button
+            android:id="@+id/ds03cbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DS03c" />
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:background="?android:attr/listDivider"
+        android:layout_height="2dp" />
+
+
+
+</LinearLayout>
+

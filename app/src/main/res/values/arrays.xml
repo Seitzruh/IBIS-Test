@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ds_array">
+        <item>DS001;l,3Z;l345;AD Liniennummer </item>
+        <item>DS001neu;q,3Z;q3456;AD Liniennummer</item>
+        <item>DS001a;lE,2Z;lE34;Liniennummer-Anzeiger AD Sonder-Anzeige</item>
+        <item>DS001b;lF,5Z;lF34567;Funkkennung Funkgerät</item>
+        <item>DS001c;lP,3Z;lP345;Linienbandposition Linien-Anzeiger Anzeigensteuerung </item>
+        <item>DS002;k,2Z;k34;Kursnummer Außenanzeigen AD </item>
+        <item>DS002a;k,5Z;k34567;Außenanzeigen AD Zugnummer / Liniennummer</item>
+        <item>DS003;z,3Z;z345;Zielnummer Außenanzeigen AD </item>
+        <item>DS003a;zA,MP1(16C);zA1abcdefghijklmnop;AD Ziel, Fahrweg</item>
+        <item>DS003c;zI,MP1(4C);zI1abcd;Haltestellen-Name Innenanzeigen AD </item>
+        <item>DS003d;zN,3Z;zN345;IMU, ZUB Routennummer</item>
+        <item>DS003e;zP,3Z;zp345;Zielbandposition Zielanzeiger Anzeigenstuerung </item>
+        <item>DS003f;zN,6Z;zN345678;IMU, ZUB Routennummer</item>
+        <item>DS004;e,6Z;e345678;Entwertermerkmale</item>
+        <item>DS004a;eA,4Z;eA3456;Entwerter AD zusätzliche Entwertermerkmale</item>
+        <item>DS004b;eH,7Z;eH3456789;Entwerter Haltestellennummer</item>
+        <item>DS004c;eT,MP1(4C);eT1abcd;Entwerter Haltestellenname</item>
+        <item>DS005;u,4Z;u3456;Entwerter AD Uhrzeit</item>
+        <item>DS006;d,5Z;d34567;Entwerter AD Kalender-Datum</item>
+        <item>DS007;w,1Z;w3;Fehlererfassungssystem AD Zuglänge</item>
+        <item>DS008;n,3H;n345;Fehlererfassungssystem AD Wagenaddresse</item>
+        <item>DS009;v,16C;vabcdefghijklmnop;Voranzeige, Innenanzeige AD Haltestellen-Name</item>
+        <item>DS009a;v,20C;vabcdefghijklmnopqrst;Voranzeige, Innenanzeige AD Haltestellen-Name</item>
+        <item>DS009b;v,24C;vabcdefghijklmnopqrstuvwxy;Voranzeige, Innenanzeige AD Haltestellen-Name</item>
+        <item>DS010;x,4Z;x3456;Voranzeige, Perlschnur AD Haltestellen-Nummer</item>
+        <item>DS010a;xH,4Z;xH3456;Voranzeige, Perlschnur AD Haltestellen-Nummer</item>
+        <item>DS010b;xI,2Z;xI34;Verlaufsanzeige Verlaufsanzeige Haltestellenindex</item>
+        <item>DS010c;xZ,2H;xZ34;Fahrgastinformation Perlschnurnummer der Zielhaltestelle</item>
+        <item>DS010d;xJ,4Z;xJ3456;Fahrgastinformation Aktuelle Jahreszahl</item>
+        <item>DS010e;xV,[+-],3Z;xV+345;Fahrgastinformation Aktuelle Verspätung</item>
+        <item>DS010f;xU,MP2(1C);xU341a;Fahrgastinformation Umsteigemöglichkeiten an der nächsten Haltestelle</item>
+        <item>DS010g;xN;xN;Fahrgastinformation Anzeige Nächste Haltestelle</item>
+        <item>DS010h;xT;xT;Fahrgastinformation Anzeiger der nächsten Haltestelle als aktuelle Haltestelle</item>
+        <item>DS010i;xS,@;xS3;Fahrgastinformation FGI Statusabfrage</item>
+        <item>DS020;a,@;a0;Anzeigen Status-Abfrage</item>
+        <item>DS0201;aV,@;aV0;Anzeigen Versionsabfrage</item>
+        <item>DS021;aA,@,MP1(16C);aA11abcdefghijklmnop;Anzeigen Text Ziel, Fahrweg</item>
+        <item>DS021a;aL,@,MP2(1C);aL101a;Streckenverlaufsanzeigen Übertragung Haltestellenname und Umsteigehinweise</item>
+        <item>DS030;hS;hS;HAG (Haltestellen Ansage Gerät) Statusabfrage</item>
+        <item>DS0301;hV;hV;HAG Versionsabfrage</item>
+        <item>DS031;hM;hM;HAG Stumme Fortschaltung</item>
+        <item>DS032;hN;hN;HAG Nächste Haltestelle</item>
+        <item>DS033;hR;hR;HAG Haltestelle wiederholen</item>
+        <item>DS036;hP,4Z;hP3456;HAG / HIG Nummer der nächsten Haltestelle</item>
+        <item>DS036a;hE,8Z;he34567890;HAG Erweiterte Haltestellen-Ansage</item>
+        <item>DS037;hM,4Z;hM3456;HAG / HIG Nummer der nächsten Haltestelle / Stumme Ansage</item>
+        <item>H;H;;Hexzahl</item>
+        <item>/@;;;Adresse des angesprochenen Gerätes 1 Hexzeichen</item>
+        <item>MP1;;;Multiplikator 1 HEX-Zeichen</item>
+        <item>MP2;;;Multiplikator 2 HEX-Zeichen</item>
+        <item>(1C);;;Multiplikator Mal 1 Zeichen</item>
+        <item>(4C);;;Multiplikator Mal 4 Zeichen</item>
+        <item>(16C);;;Multiplikator Mal 16 Zeichen</item>
+        <item>C;C;;Char</item>
+        <item>Z;Z;;Zahlen</item>
+        <item>[+-];;;entweder Plus oder Minus</item>
+    </string-array>
+
+</resources>

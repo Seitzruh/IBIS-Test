@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">LYNX  Serial For Android Test</string>
+    <string name="app_name">LYNX Serial Test</string>
+    <string name="devices">USB Devices</string>
+</resources>
